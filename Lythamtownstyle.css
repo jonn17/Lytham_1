@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    Font-family:Tahoma, sans-serif;
+    background-color: rgb(189, 227, 229);
+    min-width:900px;
+}
+.container{
+    width:900px;
+    Margin: 0 auto;
+    Overflow: auto;
+}
+header{
+    text-align:center;
+    Width:100%;
+}
+nav{
+    font-weight:bold;
+    background-image:url(images/logobackground.jpeg);
+    background-repeat:repeat-x;
+}
+Nav ul, footer ul{
+    list-style-type:none;
+    margin:5px;
+    padding:10px 0px;
+}
+nav li, footer li{
+    display: inline;
+    margin:5px;
+    text-transform:uppercase;
+}
+nav a{
+    text-decoration:none;
+    color:white;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+main{
+    text-align:center;
+    Margin:40px;
+    color:black;
+    border:6px inset;
+    border-color: darkred;
+    box-shadow: 6px; 
+}
+main h1{
+    font-weight:bold;
+    letter-spacing:0.5px;
+    font-size:2.2em;
+    margin-top:5px;
+}
+.fanbox1 p{
+    font-style:italic
+}
+.fanbox2 p{
+    font-style:italic
+}
+.fanbox3 p{
+    font-style:italic
+}
+.fanbox1{
+    border:6px outset;
+    width:60%;
+    margin-bottom:20px;
+    border-radius:10px;
+    background-color: azure;
+}
+.fanbox2{
+    border:6px outset;
+    width:60%;
+    margin-bottom:20px;
+    border-radius:10px;
+    background-color: azure;
+}
+.fanbox3{
+    border:6px outset;
+    width:60%;
+    margin-bottom:20px;
+    border-radius:10px;
+    background-color: azure;
+
+}
+.fanbox1 h1{
+    font-size:1.2em;
+    margin-top:0;
+    padding:10px;
+}
+.fanbox2 h1{
+    font-size:1.2em;
+    margin-top:0;
+    padding:10px;
+}
+.fanbox3 h1{
+    font-size:1.2em;
+    margin-top:0;
+    padding:10px;
+}
+.floatleft{
+    margin-left:35%;
+    float:left;
+}
+.floatright{
+    margin-right:35%;
+    float:right;
+}
+footer{
+    text-align:center;
+    width:100%;
+    background-color:white ;
+}
